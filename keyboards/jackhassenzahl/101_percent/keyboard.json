@@ -1,6 +1,6 @@
 {
     "manufacturer": "Jack Hassenzahl",
-    "keyboard_name": "denseboard",
+    "keyboard_name": "101_percent",
     "maintainer": "jackhassenzahl",
     "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
