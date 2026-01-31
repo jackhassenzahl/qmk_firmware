@@ -20,10 +20,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 
     [2] = LAYOUT(
-        KC_B,    KC_F,    KC_G,    KC_J,    KC_NO,
-        KC_K,    KC_P,    KC_W,    KC_V,    KC_X,
-        KC_Q,    KC_Y,    KC_Z,    KC_SCLN, KC_COLN,
-        KC_TRNS, KC_BSPC, KC_ENT,  KC_EXLM, KC_QUES
+        KC_B,    KC_F,    KC_G,    KC_J,    QK_BOOT,
+        KC_K,    KC_P,    KC_W,    KC_V,    KC_COLN,
+        KC_Q,    KC_Y,    KC_Z,    KC_X,    KC_SCLN,
+        KC_TRNS, KC_BSPC, KC_TRNS, KC_EXLM, KC_QUES
     ),
 
 };
@@ -33,3 +33,7 @@ const uint16_t PROGMEM encoder_map[][1][2] = {
     [1] = { ENCODER_CCW_CW(KC_UP,   KC_DOWN) },
     [2] = { ENCODER_CCW_CW(KC_NO,   KC_NO) },
 };
+
+/*
+The quick brown fox jumps over the lazy dog.
+*/
