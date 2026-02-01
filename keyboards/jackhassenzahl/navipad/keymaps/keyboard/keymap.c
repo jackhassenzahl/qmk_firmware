@@ -33,7 +33,3 @@ const uint16_t PROGMEM encoder_map[][1][2] = {
     [1] = { ENCODER_CCW_CW(KC_UP,   KC_DOWN) },
     [2] = { ENCODER_CCW_CW(KC_NO,   KC_NO) },
 };
-
-/*
-The quick brown fox jumps over the lazy dog.
-*/
